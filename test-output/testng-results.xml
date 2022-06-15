@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="2" total="9" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26889" started-at="2022-05-17T08:33:37Z" finished-at="2022-05-17T08:34:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26889" started-at="2022-05-17T08:33:37Z" finished-at="2022-05-17T08:34:04Z">
+      <class name="com.Vcentry.Lab.TestCases.AddNewUserTest">
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:com.Vcentry.Lab.TestCases.AddNewUserTest@1d9a273]" name="launchUrl" is-config="true" duration-ms="1026" started-at="2022-05-17T08:33:59Z" finished-at="2022-05-17T08:34:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="navigatetousersinAdminTab()[pri:2, instance:com.Vcentry.Lab.TestCases.AddNewUserTest@1d9a273]" name="navigatetousersinAdminTab" duration-ms="1852" started-at="2022-05-17T08:34:00Z" finished-at="2022-05-17T08:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetousersinAdminTab -->
+        <test-method status="PASS" signature="addNewUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.Vcentry.Lab.TestCases.AddNewUserTest@1d9a273]" name="addNewUser" duration-ms="1970" started-at="2022-05-17T08:34:02Z" data-provider="NewUserData" finished-at="2022-05-17T08:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ESS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user_test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Disabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test#123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[John Smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+        <test-method status="FAIL" signature="addNewUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.Vcentry.Lab.TestCases.AddNewUserTest@1d9a273]" name="addNewUser" duration-ms="27" started-at="2022-05-17T08:34:04Z" data-provider="NewUserData" finished-at="2022-05-17T08:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test#123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Joe Root]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#btnAdd"}
+  (Session info: chrome=102.0.5005.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAVIN', ip: '192.168.0.133', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62536}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f6d7052f2dd196fbf8d57c1144e69464
+*** Element info: {Using=id, value=btnAdd}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#btnAdd"}
+  (Session info: chrome=102.0.5005.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAVIN', ip: '192.168.0.133', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62536}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f6d7052f2dd196fbf8d57c1144e69464
+*** Element info: {Using=id, value=btnAdd}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy29.click(Unknown Source)
+at com.vcentry.lab.Pages.UserPage.clickAddButton(UserPage.java:44)
+at com.Vcentry.Lab.TestCases.AddNewUserTest.addNewUser(AddNewUserTest.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+      </class> <!-- com.Vcentry.Lab.TestCases.AddNewUserTest -->
+      <class name="com.Vcentry.Lab.TestCases.LoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.Vcentry.Lab.TestCases.LoginTest@e356f0]" name="openBrowser" is-config="true" duration-ms="2637" started-at="2022-05-17T08:33:37Z" finished-at="2022-05-17T08:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:com.Vcentry.Lab.TestCases.LoginTest@e356f0]" name="launchUrl" is-config="true" duration-ms="7625" started-at="2022-05-17T08:33:40Z" finished-at="2022-05-17T08:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.Vcentry.Lab.TestCases.LoginTest@e356f0]" name="login" duration-ms="2402" started-at="2022-05-17T08:33:48Z" data-provider="loginData" finished-at="2022-05-17T08:33:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.Vcentry.Lab.TestCases.LoginTest@e356f0]" name="login" duration-ms="1533" started-at="2022-05-17T08:33:51Z" data-provider="loginData" finished-at="2022-05-17T08:33:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admina]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.Vcentry.Lab.TestCases.LoginTest@e356f0]" name="login" duration-ms="286" started-at="2022-05-17T08:33:52Z" data-provider="loginData" finished-at="2022-05-17T08:33:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.Vcentry.Lab.TestCases.LoginTest@e356f0]" name="login" duration-ms="5913" started-at="2022-05-17T08:33:53Z" data-provider="loginData" finished-at="2022-05-17T08:33:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Vcentry.Lab.TestCases.LoginTest@e356f0]" name="closeBrowser" is-config="true" duration-ms="336" started-at="2022-05-17T08:34:04Z" finished-at="2022-05-17T08:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Vcentry.Lab.TestCases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

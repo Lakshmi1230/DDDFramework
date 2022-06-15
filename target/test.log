@@ -1,0 +1,39 @@
+[INFO ] 2022-05-17 13:21:58.905 [main] BaseClass - ******************Execution Start*******************
+[INFO ] 2022-05-17 13:22:28.423 [main] BaseClass - ******************Execution End*******************
+[INFO ] 2022-05-17 13:26:35.850 [main] BaseClass - ******************Execution Start*******************
+[INFO ] 2022-05-17 13:26:52.155 [main] BaseClass - ******************Execution End*******************
+[INFO ] 2022-05-17 13:31:55.405 [main] BaseClass - ******************Execution Start*******************
+[INFO ] 2022-05-17 13:32:18.346 [main] BaseClass - ******************Execution End*******************
+[INFO ] 2022-05-17 13:40:27.594 [main] BaseClass - ******************Execution Start*******************
+[INFO ] 2022-05-17 13:40:41.428 [main] BaseClass - ******************Execution End*******************
+[INFO ] 2022-05-17 13:43:26.411 [main] BaseClass - ******************Execution Start*******************
+[INFO ] 2022-05-17 13:43:39.184 [main] BaseClass - ******************Execution End*******************
+[INFO ] 2022-05-17 13:45:14.414 [main] BaseClass - ******************Execution Start*******************
+[INFO ] 2022-05-17 13:45:27.032 [main] BaseClass - ******************Execution End*******************
+[INFO ] 2022-05-17 13:52:24.745 [main] BaseClass - ******************Execution Start*******************
+[INFO ] 2022-05-17 13:52:39.423 [main] BaseClass - loginis passed
+[INFO ] 2022-05-17 13:52:40.932 [main] BaseClass - loginis passed
+[INFO ] 2022-05-17 13:52:41.237 [main] BaseClass - loginis passed
+[INFO ] 2022-05-17 13:52:47.303 [main] BaseClass - loginis passed
+[INFO ] 2022-05-17 13:52:50.370 [main] BaseClass - navigatetousersinAdminTabis passed
+[INFO ] 2022-05-17 13:53:16.280 [main] BaseClass - addNewUseris passed
+[ERROR] 2022-05-17 13:53:18.642 [main] BaseClass - addNewUseris Failed
+[INFO ] 2022-05-17 13:53:20.322 [main] BaseClass - ******************Execution End*******************
+[INFO ] 2022-05-17 14:00:00.498 [main] BaseClass - ******************Execution Start*******************
+[INFO ] 2022-05-17 14:00:15.001 [main] BaseClass - loginis passed
+[INFO ] 2022-05-17 14:00:16.563 [main] BaseClass - loginis passed
+[INFO ] 2022-05-17 14:00:16.860 [main] BaseClass - loginis passed
+[INFO ] 2022-05-17 14:00:22.492 [main] BaseClass - loginis passed
+[INFO ] 2022-05-17 14:00:25.239 [main] BaseClass - navigatetousersinAdminTabis passed
+[INFO ] 2022-05-17 14:00:27.583 [main] BaseClass - addNewUseris passed
+[ERROR] 2022-05-17 14:00:27.845 [main] BaseClass - addNewUseris Failed
+[INFO ] 2022-05-17 14:00:28.919 [main] BaseClass - ******************Execution End*******************
+[INFO ] 2022-05-17 14:03:37.800 [main] BaseClass - ******************Execution Start*******************
+[INFO ] 2022-05-17 14:03:51.413 [main] BaseClass - loginis passed
+[INFO ] 2022-05-17 14:03:52.953 [main] BaseClass - loginis passed
+[INFO ] 2022-05-17 14:03:53.239 [main] BaseClass - loginis passed
+[INFO ] 2022-05-17 14:03:59.152 [main] BaseClass - loginis passed
+[INFO ] 2022-05-17 14:04:02.047 [main] BaseClass - navigatetousersinAdminTabis passed
+[INFO ] 2022-05-17 14:04:04.078 [main] BaseClass - addNewUseris passed
+[ERROR] 2022-05-17 14:04:04.305 [main] BaseClass - addNewUseris Failed
+[INFO ] 2022-05-17 14:04:05.934 [main] BaseClass - ******************Execution End*******************

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.vcentry.lab.testBase.ListenerTest"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Vcentry.Lab.TestCases.AddNewUserTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="addNewUser" invocation-numbers="1"/>
+          <include name="closeBrowser"/>
+          <include name="launchUrl"/>
+        </methods>
+      </class> <!-- com.Vcentry.Lab.TestCases.AddNewUserTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
